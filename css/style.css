@@ -6,3 +6,16 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+/**
+ * Global
+ */
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.right {
+	float: right;
+}
