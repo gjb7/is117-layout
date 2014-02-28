@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: OpenSans;
+	font: 10pt OpenSans;
 }
 
 a, a:link, a:visited, a:active, a:hover {
@@ -36,6 +36,27 @@ a, a:link, a:visited, a:active, a:hover {
 #contact p {
 	margin: 0;
 	text-align: right;
+}
+
+#meta {
+	margin-top: 30px;
+}
+
+#meta div {
+	float: left;
+	margin-right: 16px;
+}
+
+#meta div:last-child {
+	margin-right: 0;
+}
+
+#meta img {
+	margin-top: 2px;
+}
+
+#bbb {
+	margin-right: 47px;
 }
 
 #call-us {
