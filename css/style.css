@@ -281,6 +281,8 @@ nav a {
 #services {
 	border-collapse: collapse;
 	margin-top: 40px;
+	margin-bottom: 40px;
+	color: rgb(119, 119, 119);
 }
 
 #services .header {
@@ -291,6 +293,7 @@ nav a {
 	height: 66px;
 	background: rgb(127, 140, 141);
 	font-size: 22px;
+	letter-spacing: 6px;
 }
 
 #services .side {
@@ -306,11 +309,22 @@ nav a {
 	font-size: 15px;
 	letter-spacing: 2px;
 	margin-left: 1px;
-	margin-top: 150px;
 }
 
 #services .side#air-conditioning {
 	background: rgb(41, 128, 185);
+}
+
+#services .side#air-conditioning div {
+	margin-top: 150px;
+}
+
+#services .side#heating {
+	background: rgb(192, 57, 43);
+}
+
+#services .side#heating div {
+	margin-top: 65px;
 }
 
 #services td {
@@ -326,4 +340,14 @@ nav a {
 	height: 40px;
 	padding: 0 30px;
 	background: rgb(247, 247, 247);
+}
+
+#services td.last {
+	border-bottom: 0;
+}
+
+#services td.divider {
+	background: rgb(255, 255, 255);
+	height: 3px;
+	border-bottom: 0;
 }
