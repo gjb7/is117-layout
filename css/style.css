@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font: 10pt OpenSans;
+	font: 13px OpenSans;
 	color: rgb(44, 44, 44);
 }
 
@@ -272,4 +272,58 @@ nav a {
 
 #welcome ul {
 	margin: 0;
+}
+
+/**
+ * Services
+ */
+
+#services {
+	border-collapse: collapse;
+	margin-top: 40px;
+}
+
+#services .header {
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 66px;
+	background: rgb(127, 140, 141);
+	font-size: 22px;
+}
+
+#services .side {
+	width: 24px;
+}
+
+#services .side div {
+	height: 24px;
+	width: 24px;
+	white-space: nowrap;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-left: 1px;
+	margin-top: 150px;
+}
+
+#services .side#air-conditioning {
+	background: rgb(41, 128, 185);
+}
+
+#services td {
+	border-left: 3px solid rgb(255, 255, 255);
+}
+
+#services td.side {
+	border-left: 0;
+}
+
+#services td:not(.header) {
+	border-bottom: 1px solid rgb(233, 233, 233);
+	height: 40px;
+	padding: 0 30px;
+	background: rgb(247, 247, 247);
 }
