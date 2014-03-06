@@ -198,3 +198,54 @@ nav a {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 }
+
+/**
+ * Facebook bar
+ */
+
+.facebook-bar {
+	margin-top: 40px;
+	background: linear-gradient(rgb(80, 107, 161), rgb(63, 80, 125));
+	background: -webkit-linear-gradient(rgb(80, 107, 161), rgb(63, 80, 125));
+	background: -moz-linear-gradient(rgb(80, 107, 161), rgb(63, 80, 125));
+	border: 1px solid rgb(189, 195, 199);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	height: 51px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.facebook-bar a {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.facebook-bar p {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.like-button {
+	display: inline-block;
+	height: 24px;
+	margin-left: 18px;
+}
+
+.like-button img {
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+.like-button .likes {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.fb-logo-white {
+	width: 31px;
+	height: 32px;
+	background: url('../img/fb-white.png') no-repeat;
+	margin: 9px 19px;
+}
