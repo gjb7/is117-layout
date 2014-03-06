@@ -146,3 +146,55 @@ nav li {
 nav a {
 	color: rgb(255, 255, 255);
 }
+
+/**
+ * Intro
+ */
+
+.intro {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 26px;
+}
+
+.intro h2 {
+	font-size: 36px;
+	color: rgb(93, 93, 93);
+}
+
+.intro h5 {
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(143, 143, 143);
+	margin-top: 10px;
+}
+
+.intro h4 {
+	color: rgb(63, 130, 82);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 8px;
+	margin-top: 25px;
+}
+
+.intro .video {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: rgb(74, 91, 102);
+	width: 550px;
+	height: 280px;
+	margin: 40px auto 0 auto;
+}
+
+.intro .video .play-button {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 225px;
+	top: 90px;
+	background: rgba(0, 0, 0, 0.5) url('../img/play.png') no-repeat 34px center;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
