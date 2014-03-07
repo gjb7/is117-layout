@@ -361,6 +361,10 @@ section {
 	text-align: center;
 }
 
+section:nth-child(odd) {
+	background: rgb(238, 241, 245);
+}
+
 section h2 {
 	letter-spacing: 4px;
 	font-weight: 500;
@@ -369,10 +373,6 @@ section h2 {
 /**
  * Heating
  */
-
-#heating {
-	background: rgb(238, 241, 245);
-}
 
 #heating h2 {
 	color: rgb(192, 57, 43);
