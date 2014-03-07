@@ -311,19 +311,19 @@ nav a {
 	margin-left: 1px;
 }
 
-#services .side#air-conditioning {
+#services .side#air-conditioning-header {
 	background: rgb(41, 128, 185);
 }
 
-#services .side#air-conditioning div {
+#services .side#air-conditioning-header div {
 	margin-top: 150px;
 }
 
-#services .side#heating {
+#services .side#heating-header {
 	background: rgb(192, 57, 43);
 }
 
-#services .side#heating div {
+#services .side#heating-header div {
 	margin-top: 65px;
 }
 
@@ -350,4 +350,38 @@ nav a {
 	background: rgb(255, 255, 255);
 	height: 3px;
 	border-bottom: 0;
+}
+
+/**
+ * Heating
+ */
+
+#heating {
+	background: rgb(238, 241, 245);
+	padding: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+#heating h2 {
+	color: rgb(192, 57, 43);
+}
+
+/**
+ * Gallery
+ */
+
+.gallery {
+	margin: 40px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.gallery li {
+	float: left;
+	width: 280px;
+}
+
+.gallery li:first-child {
+	margin-left: 70px;
 }
