@@ -353,20 +353,29 @@ nav a {
 }
 
 /**
+ * Sections
+ */
+
+section {
+	padding: 40px;
+	text-align: center;
+}
+
+section h2 {
+	letter-spacing: 4px;
+	font-weight: 500;
+}
+
+/**
  * Heating
  */
 
 #heating {
 	background: rgb(238, 241, 245);
-	padding: 40px;
-	text-align: center;
-	
 }
 
 #heating h2 {
 	color: rgb(192, 57, 43);
-	letter-spacing: 4px;
-	font-weight: 500;
 }
 
 /**
