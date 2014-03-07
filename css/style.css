@@ -404,3 +404,42 @@ section h2 {
 .gallery li:first-child {
 	margin-left: 70px;
 }
+
+/**
+ * About Us
+ */
+
+#about-us {
+	background: rgb(238, 241, 245) url('../img/trucks.png') no-repeat bottom center;
+	padding-bottom: 340px;
+}
+
+.company-grid {
+	margin-top: 40px;
+}
+
+.company-grid .row {
+	margin: 20px 0;
+}
+
+.company-grid .row .item {
+	float: left;
+	width: 140px;
+	height: 61px;
+}
+
+.company-grid .row .item:before {
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.company-grid .row .item img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item.item-3 {
+	margin-left: 280px;
+}
